@@ -7,7 +7,7 @@ body{font-family: 'Open Sans', sans-serif;}
     font-weight: 700;color:white;padding: 18px 36px;}
 /* nav related styles */
 nav{display: flex;
-align-items: center;justify-content: space-between;}
+align-items: center;justify-content: space-between;margin: 0 200px;}
 .nav-title{color: #181818;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-size: 45px;
@@ -15,3 +15,7 @@ align-items: center;justify-content: space-between;}
 nav>ul{display: flex;align-items: center;}
 nav li{list-style: none;margin-right: 51px;}
 nav a{text-decoration: none;color: #474747;}
+/*Header related styles*/
+.header{background: #FFF8F3;}
+.banner{padding: 30px 30px 30px 150px;display: flex;align-items: center;}
+.banner .profile-pic{width: 500px;}
